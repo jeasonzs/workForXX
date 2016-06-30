@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.cpr.TechActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CPR教学"
+            android:id="@+id/buttonTechCpr"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AED教学"
+            android:id="@+id/buttonTechAed"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
